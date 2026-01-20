@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "Transaction ID": { "type": "string" },
+    "Customer ID": { "type": "string" },
+    "Category": { "type": "string" },
+    "Item": { "type": "string" },
+    "Price Per Unit": { "type": "number" },
+    "Quantity": { "type": "number" },
+    "Total Spent": { "type": "number" },
+    "Payment Method": { "type": "string" },
+    "Location": { "type": "string" },
+    "Transaction Date": { "type": "string" }
+  },
+  "required": [
+    "Transaction ID",
+    "Customer ID",
+    "Category",
+    "Item",
+    "Price Per Unit",
+    "Quantity",
+    "Total Spent",
+    "Payment Method",
+    "Location",
+    "Transaction Date"
+  ]
+}
